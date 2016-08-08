@@ -2,29 +2,19 @@
 
 
 
+$animals = ['dog', 'cat'];
 
-$person = [
-	'age' => 9000,
-	'hair' => 'blue',
-	'career' => 'astronaut'
-
-
-];
+function dumper($one, $two, $three){
+	var_dump($one, $two, $three);
+}
 
 
-$task = [
-	'title' => 'laravel 5 essentials',
-	'due' => '2017',
-	'assigned_to' => 'Vincent',
-	'completed' => true
+// echo '<pre>';
+
+dumper('hello', 'big', 'world');
 
 
-];
+// var_dump($animals);
 
 
-
-$person['name'] = "Vincent";
-unset($person['age']);
-
-
-require 'index.view.php';
+// echo '</pre>'; 
