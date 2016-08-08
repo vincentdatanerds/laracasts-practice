@@ -4,17 +4,12 @@
 
 $animals = ['dog', 'cat'];
 
-function dumper($one, $two, $three){
-	var_dump($one, $two, $three);
+function dd($datasoup){
+	echo '<pre>';
+
+	var_dump($datasoup);
+	echo '<pre>';
 }
 
 
-// echo '<pre>';
-
-dumper('hello', 'big', 'world');
-
-
-// var_dump($animals);
-
-
-// echo '</pre>'; 
+dd('hello world');
