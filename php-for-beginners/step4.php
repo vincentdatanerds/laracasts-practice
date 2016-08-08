@@ -29,18 +29,9 @@
 hello
 
 	<header>
-		<h1>
+		
 
-
-		<?php
-
-		$greeting = "hey there, ";
-		$name = $_GET['name'];
-
-		echo $greeting . $name;
-		?>
-
-		</h1>
+		<h1> <?php echo "Hello, " . htmlspecialchars($_GET['name']); ?> </h1>
 
 	</header>
 </body>
