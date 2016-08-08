@@ -11,4 +11,8 @@ $person = [
 
 ];
 
-require 'index.view.php';
+$person['name'] = "Vincent";
+
+
+echo $person; 
+// require 'index.view.php';
