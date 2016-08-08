@@ -1,23 +1,14 @@
 <?php
 
-// $name = htmlspecialchars($_GET['name']);
-
-// $greeting = 'Hello, world';
-
-$names = [
-	'Jeff',
-
-	'John',
-
-	'Mary'
-
-];
 
 
-$animals = [
-	'giraffe',
-	'rhino',
-	'tiger'
+
+$person = [
+	'age' => 9000,
+	'hair' => 'blue',
+	'career' => 'astronaut'
+
+
 ];
 
 require 'index.view.php';

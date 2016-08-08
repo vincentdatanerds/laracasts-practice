@@ -28,17 +28,13 @@
 
 	<ul>
 
-	 <?php
-	foreach( $names as $name){
-		echo "<li> $name </li>";
-	}
+	 <?php foreach($person as $key => $feature): ?>
 
-	foreach( $animals as $animal){
-		echo "<li> $animal </li>";
+	 	 <li><strong><?= $key; ?></strong> <?= $feature; ?></li>
 
-	}
 
-	?>
+
+	 <?php endforeach; ?>
 	</ul>
 
 
