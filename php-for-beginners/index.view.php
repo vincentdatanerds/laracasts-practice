@@ -48,7 +48,7 @@
 
 			<strong>Status: </strong>
 			<?php if($task['completed']){
-				echo "Finished";
+				echo '&#9989';
 			} else {
 				echo 'Not finished';
 			}
