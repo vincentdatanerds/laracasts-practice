@@ -26,13 +26,22 @@
 
 <body>
 
-hello
+	<ul>
 
-	<header>
-		
+	 <?php
+	foreach( $names as $name){
+		echo "<li> $name </li>";
+	}
 
-		<?= $greeting; ?>
-	</header>
+	foreach( $animals as $animal){
+		echo "<li> $animal </li>";
+
+	}
+
+	?>
+	</ul>
+
+
 </body>
 
 
