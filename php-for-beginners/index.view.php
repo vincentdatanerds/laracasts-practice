@@ -32,15 +32,21 @@
 
 	<ul>
 
-		<?php foreach($task as $heading => $value): ?>
+		<li>
+			<strong>Name: </strong>  <?= $task['title']; ?>
+		</li>
 
-			Name: $task['title'];
+		<li>
+			<strong>Due Date: </strong>  <?= $task['due']; ?> 
+		</li>
 
-			<li><strong><?= ucwords($heading); ?></strong> <?= $value; ?></li>
+		<li>
+			<strong>Person Responsible </strong>  <?= $task['assigned_to']; ?> 
+		</li>
 
-
-
-		<?php endforeach; ?>
+		<li>
+			<strong>Status </strong>  <?= $task['completed'] ? 'done' : 'not done'; ?> 
+		</li>
 	</ul>
 
 

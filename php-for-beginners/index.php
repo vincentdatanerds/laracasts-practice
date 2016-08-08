@@ -16,7 +16,7 @@ $task = [
 	'title' => 'laravel 5 essentials',
 	'due' => '2017',
 	'assigned_to' => 'Vincent',
-	'completed' => true
+	'completed' => false
 
 
 ];
