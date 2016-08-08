@@ -26,28 +26,21 @@
 
 <body>
 
+
+
+
+
 	<ul>
 
-	 <?php foreach($person as $key => $feature): ?>
+		<?php foreach($task as $heading => $value): ?>
 
-	 	 <li><strong><?= $key; ?></strong> <?= $feature; ?></li>
+			Name: $task['title'];
 
-
-
-	 <?php endforeach; ?>
-	</ul>
+			<li><strong><?= ucwords($heading); ?></strong> <?= $value; ?></li>
 
 
 
-		<ul>
-
-	 <?php foreach($task as $key => $feature): ?>
-
-	 	 <li><strong><?= $key; ?></strong> <?= $feature; ?></li>
-
-
-
-	 <?php endforeach; ?>
+		<?php endforeach; ?>
 	</ul>
 
 
