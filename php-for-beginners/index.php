@@ -14,5 +14,11 @@ $person = [
 $person['name'] = "Vincent";
 
 
-echo $person; 
+echo '<pre>';
+
+die(var_dump($person));
+
+echo '</pre>';
+
+echo "if dead, cannot see this";
 // require 'index.view.php';
