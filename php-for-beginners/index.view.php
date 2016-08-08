@@ -45,7 +45,16 @@
 		</li>
 
 		<li>
-			<strong>Status </strong>  <?= $task['completed'] ? 'done' : 'not done'; ?> 
+
+			<strong>Status: </strong>
+			<?php if($task['completed']){
+				echo "Finished";
+			} else {
+				echo 'Not finished';
+			}
+
+			?>
+
 		</li>
 	</ul>
 
