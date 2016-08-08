@@ -11,14 +11,26 @@ $person = [
 
 ];
 
-$person['name'] = "Vincent";
 
+$task = [
+	'title' => 'laravel 5 essentials',
+	'due' => '2017',
+	'assigned_to' => 'Vincent',
+	'completed' => '2018'
+
+
+];
+
+
+
+$person['name'] = "Vincent";
+unset($person['age']);
 
 echo '<pre>';
 
-die(var_dump($person));
+var_dump($person);
 
 echo '</pre>';
 
 echo "if dead, cannot see this";
-// require 'index.view.php';
+require 'index.view.php';
