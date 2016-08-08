@@ -47,13 +47,13 @@
 		<li>
 
 			<strong>Status: </strong>
-			<?php if($task['completed']){
-				echo '&#9989';
-			} else {
-				echo 'Not finished';
-			}
+			<?php if($task['completed']): ?>
+				<span class="icon">&#9989</span>
+			<?php else: ?>
+				<span class="icon">Not finished</span> 
+			<?php endif ?>
 
-			?>
+		
 
 		</li>
 	</ul>

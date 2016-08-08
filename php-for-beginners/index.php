@@ -26,11 +26,5 @@ $task = [
 $person['name'] = "Vincent";
 unset($person['age']);
 
-echo '<pre>';
 
-var_dump($person);
-
-echo '</pre>';
-
-echo "if dead, cannot see this";
 require 'index.view.php';
